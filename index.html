@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BMW Interactive Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="initializeGallery()">
+
+    <header>
+        <h1>BMW Interactive Gallery</h1>
+        <p>Hover over an image or use the Tab key to explore.</p>
+    </header>
+
+    <main>
+
+        <!-- Large display area -->
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <!-- Six BMW images -->
+        <div class="gallery">
+
+            <img
+                src="hinhanhbmw/bmw-735i.jpg"
+                alt="BMW 735i"
+                onmouseover="upDate(this)"
+                onmouseout="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()"
+            >
+
+            <img
+                src="hinhanhbmw/bmw-m4.jpg"
+                alt="BMW M4"
+                onmouseover="upDate(this)"
+                onmouseout="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()"
+            >
+
+            <img
+                src="hinhanhbmw/bmw-x7.jpg"
+                alt="BMW X7"
+                onmouseover="upDate(this)"
+                onmouseout="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()"
+            >
+
+            <img
+                src="hinhanhbmw/bmw-520i.jpg"
+                alt="BMW 520i"
+                onmouseover="upDate(this)"
+                onmouseout="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()"
+            >
+
+            <img
+                src="hinhanhbmw/bmw-320i.jpg"
+                alt="BMW 320i"
+                onmouseover="upDate(this)"
+                onmouseout="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()"
+            >
+
+            <img
+                src="hinhanhbmw/bmw-i8.jpg"
+                alt="BMW i8"
+                onmouseover="upDate(this)"
+                onmouseout="unDo()"
+                onfocus="upDate(this)"
+                onblur="unDo()"
+            >
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>BMW Interactive Photo Gallery</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
